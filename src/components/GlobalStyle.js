@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     }
 body{
     background: #1b1b1b;
+    font-family: 'Noto Sans', sans-serif;
 }
 button{
     font-weight: bold;
@@ -17,6 +18,7 @@ button{
     color: white;
     background: transparent;
     transition: all 0.5s ease;
+    font-family: 'Noto Sans', sans-serif;
     &:hover{
         background-color: #23d997;
         color: white;
