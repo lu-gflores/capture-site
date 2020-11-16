@@ -5,11 +5,11 @@ const Toggle = ({children, title}) => {
     const [toggle, setToggle] = useState(true);
 
     return (
-        <div className='question' onClick={ () => setToggle(!toggle)}>
-            <motion.h4>{title}</motion.h4>
+        <motion.div layout className='question' onClick={ () => setToggle(!toggle)}>
+            <motion.h4 layout>{title}</motion.h4>
             {toggle ? children : ''}
             <div className="faq-line"></div>
-        </div>
+        </motion.div>
     )
 }
 
