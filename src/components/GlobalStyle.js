@@ -8,7 +8,8 @@ const GlobalStyle = createGlobalStyle`
 body{
     background: #1b1b1b;
     font-family: 'Noto Sans', sans-serif;
-}
+    overflow-x: hidden;
+    }
 button{
     font-weight: bold;
     font-size: 1.1rem;
